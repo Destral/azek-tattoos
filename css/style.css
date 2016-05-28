@@ -1,52 +1,73 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
-
 .image {
     height: 750px;
     width: 100%;
-    background: #313328;
+    background: #55e6c5;
     z-index: 1;
-    }
+}
+
+.thumbnail{
+    background-color: black;
+    border: 0px;
+}
+
+#menu{
+    opacity: 0.9;
+    background-color: #55e6c5;
+    height: auto;
+}
 
 .content {
-    height: auto;
+    height: 750px;
     width:100%;
-    background: #313328;
+    background: black;
     z-index: 2;
+    padding-top: 20px;
 }
 .content h1 {
     font-size: 40px;
-    color: whitesmoke;
+    /*color: #464646;*/
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     margin: 30px 60px;
-    margin-top: 0px;
-    background: #313328;
-;
 }
-
-
 .content p {
     font-size:20px;
-    color: whitesmoke;
+    /*color: #343434;*/
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     margin: 30px 60px;
 }
-#wall_1 {
-    background: url(../Images/swirl_pattern.png) repeat;
+#myPage {
+    background: url(../Images/head_pattern_2.png) repeat;
     background-attachment: fixed;
+}
+/*#wall_2 {*/
+    /*background: url(../Images/school.png) repeat;*/
+    /*background-attachment: fixed;*/
+/*}*/
+/*#wall_3 {*/
+    /*background: url(../Images/skulls.png) repeat;*/
+    /*background-attachment: fixed;
+}*/
 
+nav {
+    background: #000000;
 }
-#wall_2 {
-    background: url(../Images/school.png) repeat;
-    background-attachment: fixed;
-}
-#wall_3 {
-    background: url(../Images/skulls.png) repeat;
-    background-attachment: fixed;
+
+.navbar-default {
+    /*background-color: #2d2d30;*/
+    background-color: #000;
+    border-color: #2d2d30;
+    opacity: 0.9;
 }
 
 #nav {
@@ -55,13 +76,15 @@
     position: fixed;
     top:0;
     left:0;
-    background: #313328;
+    opacity: 0.9;
+    background-color: #2d2d30;
+    /*background: rgba(0,0,0,1);*/
     z-index: 100;
     -webkit-box-shadow:0px 0px 20px rgba(44,44,44,.3);
 }
 #nav #logo {
-    height: 40px;
-    width: 170px;
+    height: 60px;
+    width: 150px;
     position: absolute;
     top: 0;
     bottom:0;
@@ -71,22 +94,45 @@
 #nav #logo img {
     height: 100%;
     width: 100%;
-    
+
 }
 
-#content_1 {
+#art {
     position: relative;
-    background: #313328;
     height: auto;
+    background-color: brown;
 
 }
 
-.container{
+#work {
+    position: relative;
     height: auto;
+    background-color: cadetblue;
+
 }
 
 h1::first-letter {
     font-size: 60px;
     font-weight: 600;
-    color:#3cb0f8;
+    /*color:#3cb0f8;*/
+
+}
+
+.container-fluid{
+    height: auto;
+}
+
+.title-myPage{
+    align-content: center;
+    text-align: center;
+    height: auto;
+
+}
+
+.aux_content_1{
+    height: 300px;
+}
+
+.nicescroll-rails{
+    background-color: whitesmoke;
 }
