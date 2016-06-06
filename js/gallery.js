@@ -2,14 +2,16 @@
  * Created by DAVID on 29/05/2016.
  */
 
-var $overlay = $('<div id="overlay"></div>');
-var $image = $("<img>");
+var $overlay = $('<div id="overlay" class="row"></div>');
+
+var $image = $("<img class='col'>");
 
 //An image to overlay
 $overlay.append($image);
 
 //Add overlay
-$("body").append($overlay);
+// $("body").append($overlay);
+$("#art").append($overlay);
 
 //click the image and a scaled version of the full size image will appear
 $("#photo-gallery a").click( function(event) {

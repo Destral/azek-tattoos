@@ -102,9 +102,9 @@ nav {
 #art {
     position: relative;
     height: auto;
-    /*background-color: brown;*/
-    background: url(../Images/head_pattern_2.png) repeat ;
-    background-attachment: fixed;
+    background-color: brown;
+    /*background: url(../Images/head_pattern_2.png) repeat ;*/
+    /*background-attachment: fixed;*/
     opacity: 0.9;
 }
 
@@ -179,12 +179,18 @@ ul {
     left: 0;
     display: none;
     text-align: center;
+    z-index: 100;
+    /*margin-top: 1300px;*/
 }
 
 #overlay img {
+    /*margin-top: 1300px;*/
+
     margin: 10% auto 0;
     width: 550px;
     border-radius: 5px;
+
+
 }
 
 #photos {
