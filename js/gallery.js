@@ -2,9 +2,9 @@
  * Created by DAVID on 29/05/2016.
  */
 
-var $overlay = $('<div id="overlay" class="row"></div>');
+var $overlay = $('<div id="overlay"></div>');
 
-var $image = $("<img class='col'>");
+var $image = $("<img >");
 
 //An image to overlay
 $overlay.append($image);

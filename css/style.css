@@ -25,14 +25,18 @@ body{
     height: auto;
 }
 
+#home{
+    padding-top: 30px;
+}
+
 .content {
     height: auto;
     width:100%;
     background: black;
     z-index: 2;
     /*padding: 80px 120px;*/
-    padding-top: 30px;
-    padding-bottom: 20px;
+    /*padding-top: 30px;*/
+    padding-bottom: 50px;
 }
 .content h1 {
     font-size: 40px;
@@ -70,6 +74,8 @@ nav {
     background-color: #000;
     border-color: #2d2d30;
     opacity: 0.9;
+    height: 80px !important;
+
 }
 
 #nav {
@@ -102,7 +108,7 @@ nav {
 #art {
     position: relative;
     height: auto;
-    background-color: brown;
+    background-color: black;
     /*background: url(../Images/head_pattern_2.png) repeat ;*/
     /*background-attachment: fixed;*/
     opacity: 0.9;
@@ -111,7 +117,10 @@ nav {
 #work {
     position: relative;
     height: auto;
-    background-color: cadetblue;
+    background-color: black;
+    /*background: url(../Images/head_pattern_2.png) repeat ;*/
+    /*background-attachment: fixed;*/
+    opacity: 0.9;
 
 }
 
@@ -123,7 +132,7 @@ h1::first-letter {
 }
 
 .container-fluid{
-    height: auto;
+    height: 80px !important;
 }
 
 .title-myPage{
@@ -158,7 +167,8 @@ h3, h4 {
     float: left;
     display: block;
     margin: 2px;
-    height: 130px;
+    height: 30%;
+    /*max-height: 62px;*/
 }
 
 ul {
@@ -186,8 +196,8 @@ ul {
 #overlay img {
     /*margin-top: 1300px;*/
 
-    margin: 10% auto 0;
-    width: 550px;
+    margin: 20% auto 0;
+    width: 90%;
     border-radius: 5px;
 
 
@@ -195,8 +205,53 @@ ul {
 
 #photos {
     width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #photo-gallery {
     width: 100%;
+}
+
+.contact{
+    margin-left: 20px;
+    font-size: 14px;
+
+}
+
+.contact img{
+    /*margin-left: 55px;*/
+    height: 10%;
+    width: 10%;
+
+}
+
+.iconos-redes{
+    /*display: inline;*/
+    text-decoration: none;
+
+}
+
+
+ul li a{
+    text-decoration: none;
+    text-decoration-color: whitesmoke;
+    color: whitesmoke;
+
+
+}
+
+ul li a:hover{
+    text-decoration: none;
+    text-decoration-color: whitesmoke;
+    color: antiquewhite;
+
+}
+
+ul li {
+    padding: 7px;
+}
+
+#myNavbar{
+    height:6% !important;
 }
