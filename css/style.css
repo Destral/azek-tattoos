@@ -286,7 +286,7 @@ ul li a{
 ul li a:hover{
     text-decoration: none;
     text-decoration-color: whitesmoke;
-    color: antiquewhite;
+    color: darkred;
 
 }
 
@@ -295,6 +295,22 @@ ul li {
 }
 
 #myNavbar{
-    height:6% !important;
+    /*height:6% !important;*/
+    background-color: black;
+
 }
+
+#myNavbarCollapsed{
+    /*height:6% !important;*/
+    background-color: darkred;
+    color: #000 !important;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #d30000;
+    background-color: transparent;
+}
+
+
 
